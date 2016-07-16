@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+li {
+	list-style:square;
+	text-align:justify;
+}
+
+h1, h2, h3 {
+	text-align:center;
+}
+
+p {
+	text-align:justify;
+}
+
+.table_portfolio {
+	width:800px;
+	border:0px solid #333;
+	margin:0 auto;
+}
+
+.table_portfolio td {
+	text-align:center;
+	border:0px solid #333;
+}
+
+.center_align {
+	text-align:center;
+}
+
+.webgallery {
+	width:800px;
+}
+
+.gallery_4_tiles {
+	margin:0 auto;
+}
+
+.gallery_4_tiles td {
+	padding:5px;
+}
+
+.thumbnail_gallery {
+	margin:0 auto;
+}
+
+.thumbnail_gallery td {
+	padding:5px;
+}
+
+.images_div {
+	
+	text-align:center;
+		
+}
+
+.images {
+	
+	max-width: 750px;
+	max-height: 550px;	
+}
+
+.gallery_directions {
+	margin:0 auto;
+	width:60%;
+	border:0px solid #000;
+}
+
+.previous {
+	text-align:left;
+	border:0px solid #000;
+	width:33.3%;
+}
+
+.index {
+	text-align:center;
+	border:0px solid #000;
+	width:33.3%;
+}
+
+.next {
+	text-align:right;
+	border:0px solid #000;
+	width:33.3%;
+}
+
+a img {
+	border:none;
+}
+
+a {
+	color:#7e3757;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+}

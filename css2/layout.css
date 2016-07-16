@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Marcellus', serif;
+	background:#43252d;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+.oneColFixCtr #container {
+	width: 1024px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 0px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+
+#header {
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+}
+
+.oneColFixCtr #mainContent {
+	padding: 20px 90px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	background-image:url(../graphics/background.jpg);
+	background-position:center top;
+	background-repeat:repeat-y;
+	margin:-10px 0;
+}
+
+#footer {
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	vertical-align:bottom;
+}
+
+.background_header {
+	text-align:center;
+}
+
+.contact p {
+	text-align:center;
+	margin:0 auto;
+}
